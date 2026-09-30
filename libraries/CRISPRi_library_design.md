@@ -1,0 +1,7 @@
+The *V. fischeri* ES114 libraries were designed to knock down all loci possible in the GenBank annotation GCA_000011805.1. sgRNAs were designed using a custom Python script, following methods detailed in reference (1). For the whole genome library, the first 4 non-overlapping perfect-match sgRNAs per loci with no off-target effects were selected, and 1000 non-targeting control (NTC) sgRNAs were generated and included. For the essential gene library, 10 mismatch sgRNAs were designed from a single parent sgRNA for each of the 445 predicted essential genes defined in reference (2), then screened for off-target effects. Those with no off-target effects were included in the final library with 400 NTC sgRNAs randomly selected from the 1000 NTCs in the whole genome library. The *V. vulnificus* NBRC 15645 = ATCC 27562 whole genome sgRNA library was similarly designed from GenBank accession GCA_002224265.1, except allowing overlapping sgRNAs.
+
+References:
+
+1.  Banta AB, Enright AL, Siletti C, Peters JM. 2020. A high-efficacy CRISPRi system for gene function discovery in Zymomonas mobilis. Appl. Environ. Microbiol. 86:e01621-20. <https://doi.org/10.1128/AEM.01621-20>
+
+2.  Brooks JF, Gyllborg MC, Cronin DC, Quillin SJ, Mallama CA, Foxall R, Whistler C, Goodman AL, Mandel MJ. 2014. Global discovery of colonization determinants in the squid symbiont Vibrio fischeri. Proc. Natl. Acad. Sci. 111 (48) 17284-17289. <https://doi.org/10.1073/pnas.1415957111>
